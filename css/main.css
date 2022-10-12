@@ -1,0 +1,119 @@
+*,:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0;margin:0;outline:0}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+body{font-family:Manrope,sans-serif;color:#000;font-size:16px;line-height:1.5;background:#fff;-webkit-text-size-adjust:none}
+img{max-width:100%;height:inherit}
+.imgwrap{position:relative}
+.imgwrap img{width:100%;display:block}
+a{text-decoration:none;color:#000}
+ol,ul{list-style-type:none}
+.container-fluid{width:100%;margin-top:85px}
+.container{max-width:1250px;margin:0 auto;width:100%}
+.main_header{width:100%;position:fixed;top:0;z-index:9;border-bottom:1px solid #dedede;background-color:#fff}
+.top_head .container{display:flex;justify-content:space-between;align-items:center}
+.top_head{background:#fff;padding:5px 0}
+.site_logo img{display:block;max-width:126px}
+.topRmenu{display:flex;align-items:center;justify-content:flex-end}
+.topNavLinks ul{display:flex;justify-content:flex-end}
+.topNavLinks ul li a{font-weight:600;font-size:14px;line-height:19px;color:#2b2b2b;margin:0 10px;position:relative}
+.topNavLinks ul li ul.sub-menu{display:none;position:absolute;background-color:#b20000;z-index:2;box-shadow:1px 1px 4px 0 rgb(0 0 0 / 15%)}
+.topNavLinks ul li:last-child ul.sub-menu{right:0}
+.topNavLinks ul li:hover ul.sub-menu{display:block}
+.topNavLinks ul li:hover ul.sub-menu li{border-bottom:solid 1px #bfbfbf;padding:5px}
+.topNavLinks ul li:hover ul.sub-menu li:last-child{border-bottom:0}
+.topNavLinks ul li:hover ul.sub-menu li a{color:#fff}
+.topNavLinks ul li ul.sub-menu li a::after{display:none}
+.topLMenu,.topNavLinks,.topRmenu{flex:1}
+.topRmenu a{font-weight:700;font-size:14px;line-height:19px;color:#535353;margin:0 10px}
+.paynow{background:#fff;border:1px solid #bfbfbf;border-radius:50px;padding:10px 30px}
+.booknow{background:#d2ecf5;border-radius:50px;padding:10px 30px}
+#toggleNav,.menuNavigation{display:none}
+.leftSidebar{width:calc(100% - 315px)}
+.rightSidebar{width:300px;margin-left:15px}
+.enquiryForm{background:#f8f8f8;border-radius:25px;padding:20px;margin-bottom:20px}
+.enquiryForm h2{font-weight:700;font-size:18.2987px;line-height:25px;text-align:center;color:#007dab;margin-bottom:10px}
+.enquiryForm .form-group{margin-bottom:12px}
+.enquiryForm .form-group label{font-weight:700;font-size:12px;line-height:16px;color:#000;padding-left:10px}
+.enquiryForm .form-group input,.enquiryForm .form-group select,.enquiryForm .form-group textarea{background:#fff;border:1px solid #bbdbec;border-radius:26px;padding:10px;width:100%}
+.enquiryForm input[type=submit]{background:#007dab;border-radius:30px;font-weight:700;font-size:12px;line-height:16px;color:#fff;width:100%;border:0;padding:10px}
+.locationFilter{background:#fff;border:1px solid #c6c6c6;border-radius:30px;display:inline-block;margin-bottom:20px}
+.locationFilter form{display:flex;justify-content:flex-start}
+.locationFilter .form-group{display:flex;justify-content:flex-start;align-items:center;border-right:1px solid #c6c6c6;margin:0 10px;padding:10px 0}
+.locationFilter .location_ic{width:14px;height:18px;margin-right:10px}
+.locationFilter .form-group input{border:0}
+.locationFilter .search_ic{width:14px;height:14px;margin-right:10px}
+.locationFilter .form-group:last-child{border-right:0}
+::placeholder{color:#4d4d4c;opacity:1}
+:-ms-input-placeholder{color:#4d4d4c}
+::-ms-input-placeholder{color:#4d4d4c}
+.bdr{border-bottom:1px solid #eee;margin-bottom:20px}
+.consultation_wrapper .container{display:flex;justify-content:flex-start;width:100%}
+.consultation_wrapper .widget_wrapper{background:linear-gradient(90deg,#0099d1 0,#005676 100%);border-radius:25px;padding:40px;position:relative;margin-bottom:27px}
+.consultation_wrapper .widget_wrapper .widget_info{width:50%}
+.consultation_wrapper .widget_wrapper .widget_info p{font-size:33px;line-height:43px;text-transform:capitalize;color:#fff;margin-bottom:20px}
+.consultation_wrapper .widget_wrapper .widget_info small{font-weight:500;font-size:24px;line-height:43px}
+.consultation_wrapper .widget_wrapper .widget_info strong{display:block}
+.consultation_wrapper .doctor_img{position:absolute;right:0;bottom:0}
+.consultation_wrapper .doctor_img img{display:block}
+.consultation_wrapper .consultation_links a{background:#fff;border-radius:50px;padding:10px 30px;margin-right:10px;font-weight:700;font-size:14px;line-height:19px;color:#005676}
+.consultation_wrapper .offer p{font-weight:400;font-size:16px;line-height:22px;color:#fff;margin-top:50px}
+.consultation_wrapper .achievement_wrapper{background:#f5e6e3;border-radius:25px;padding:40px 60px;display:flex;justify-content:space-between;margin-bottom:20px}
+.consultation_wrapper .achievement_wrapper p{text-align:center;font-weight:700;font-size:28px;line-height:38px;color:#000}
+.consultation_wrapper .achievement_wrapper small{font-weight:400;font-size:16px;line-height:22px;text-align:center;color:#000;display:block}
+.common_heading{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
+.common_heading h2{font-weight:700;font-size:33px;text-transform:capitalize;color:#535353}
+.common_heading h2 small{font-weight:400;display:block;font-size:24px}
+.see_more{background:#fff;border:1px solid #bfbfbf;border-radius:50px;padding:10px 30px;font-weight:700;font-size:14px;line-height:19px;color:#535353}
+.diseaseSwiper{margin-bottom:20px}
+.diseaseSwiper figure{background:#f8f8f8;border-radius:20px;padding:30px;text-align:center}
+.diseaseSwiper figure .imgwrap{margin-bottom:20px}
+.diseaseSwiper figcaption h3{font-weight:700;font-size:16px;line-height:22px;text-transform:capitalize;color:#535353;margin-bottom:20px;height:44px}
+.diseaseSwiper figcaption span{font-weight:700;font-size:15px;line-height:20px;text-transform:capitalize;color:#007dab;display:flex;justify-content:center;align-items:center}
+.diseaseSwiper figcaption span::after{content:"";display:inline-block;width:0;height:0;border-top:6px solid transparent;border-bottom:6px solid transparent;border-left:6px solid #007dab;margin-left:5px}
+.diseaseSwiper .swiper-button-next.swiper-button-disabled,.diseaseSwiper .swiper-button-prev.swiper-button-disabled{opacity:0}
+.diseaseSwiper .swiper-button-next,.diseaseSwiper .swiper-button-prev{width:47px;height:47px;background:#fff;box-shadow:2px 1px 4px rgba(0,0,0,.2);border-radius:47px}
+.diseaseSwiper .swiper-button-next:after,.diseaseSwiper .swiper-button-prev:after{font-size:20px;color:#1c1b1f;font-weight:700}
+.helpdesk_widget h2{font-weight:700;font-size:36px;line-height:49px;text-align:center;text-transform:capitalize;color:#535353;margin-bottom:20px;text-align:center}
+.helpdesk_wrap{display:flex;justify-content:flex-start}
+.helpdesk_wrap figure{width:23.5%;margin-right:2%;background:#edf6f9;border-radius:20px;margin-bottom:20px}
+.helpdesk_wrap figure:last-child{margin-right:0}
+.helpdesk_wrap figure .imgwrap{display:flex;justify-content:center;align-items:center;margin:30px 0}
+.helpdesk_wrap figure .imgwrap img{max-width:82px;margin-right:10px}
+.helpdesk_wrap figure .imgwrap span{font-weight:700;font-size:20px;line-height:30px;text-transform:capitalize;color:#000}
+.helpdesk_wrap figcaption{background:#fff;border:1px solid #bcdceb;border-radius:20px;padding:20px}
+.helpdesk_wrap figcaption h3{font-weight:400;font-size:16px;line-height:24px;text-transform:capitalize;color:#60636f;height:120px;overflow:hidden}
+.videoGal_wrapper{display:flex;justify-content:flex-start;margin-bottom:20px}
+.videoGal_wrapper figure{width:32%;margin-right:2%;background:#edf6f9;border-radius:20px}
+.videoGal_wrapper figure:last-child{margin-right:0}
+.videoGal_wrapper .imgwrap img{border-radius:20px}
+.videoGal_wrapper figcaption{padding:15px}
+.videoGal_wrapper figcaption h3{font-weight:700;font-size:14px;text-transform:capitalize;color:#000}
+.playIcon{background:url(/images/play.png);background-position:center;background-size:46px;background-repeat:no-repeat;position:absolute;width:100%;height:100%;top:0;left:0}
+.testimonial_wrapper{background:#d6f8fc;padding:20px;overflow:hidden}
+.testimonial_wrapper .container{position:relative}
+.testimonialSwiper{width:50%;margin:0}
+.testimonial_wrapper .userImg{position:absolute;right:0;bottom:-20px}
+.testimonial_wrapper .userImg img{display:block;height:400px;width:auto}
+.testimonial_wrapper h2{font-weight:700;font-size:50px;line-height:56px;text-transform:capitalize;color:#535353;margin-bottom:20px}
+.testimonialSwiper .imgwrap{display:flex;justify-content:flex-start;align-items:center;margin-bottom:20px}
+.testimonialSwiper .imgwrap img{border-radius:100%;margin-right:10px;max-width:85px}
+.testimonialSwiper .imgwrap strong{font-weight:700;font-size:24px;line-height:35px;text-transform:capitalize;color:#535353}
+.testimonialSwiper .imgwrap small{font-weight:400;font-size:17px;line-height:35px;text-transform:capitalize;color:#60636f}
+.testimonialSwiper figcaption{font-weight:400;font-size:19px;line-height:28px;text-transform:capitalize;color:#60636f;margin-bottom:30px}
+.testimonialSwiper .swiper-button-next.swiper-button-disabled,.testimonialSwiper .swiper-button-prev.swiper-button-disabled{opacity:1}
+.testimonialSwiper .swiper-button-next,.testimonialSwiper .swiper-button-prev{width:47px;height:47px;background:#fff;border-radius:47px;top:20%}
+.testimonialSwiper .swiper-button-next:after,.testimonialSwiper .swiper-button-prev:after{font-size:20px;color:#1c1b1f;font-weight:700}
+.testimonialSwiper .swiper-button-prev{right:67px;left:auto}
+.testimonial_wrapper .read-more{background:#d5262d;border-radius:50px;padding:10px 30px;font-weight:700;font-size:14px;line-height:19px;color:#fff}
+.main_footer{background:#007dab;clear:both}
+.top_footer .container{display:flex;justify-content:flex-start}
+.bottom_footer,.top_footer{padding:20px 0}
+.bottom_footer{background:#015979}
+.main_footer .container .foot_col{width:23.5%;margin-right:2%}
+.main_footer .container .foot_col:last-child{margin-right:0}
+.foothead{font-weight:700;font-size:16px;line-height:30px;text-transform:capitalize;color:#57d2ff;margin-bottom:10px}
+.foot_col .address p{font-weight:400;font-size:18px;line-height:34px;text-transform:capitalize;color:#fff;margin-bottom:15px}
+.foot_links li a{font-weight:400;font-size:18px;line-height:34px;text-transform:capitalize;color:#fff}
+.foot_col strong{font-weight:800;font-size:18px;line-height:30px;text-transform:capitalize;color:#fff;display:block;margin:10px 0}
+.bottom_footer .container{display:flex;justify-content:space-between}
+.bottom_footer{font-weight:400;font-size:14px;line-height:40px;text-transform:capitalize;color:#fff}
+.bottom_footer a{color:#5CD8FF;}
