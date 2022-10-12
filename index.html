@@ -68,34 +68,41 @@
                 <div class="topRmenu">
                     <a href="#" class="paynow">Pay Now</a>
                     <a href="#" class="booknow">Book an Appointment</a>
-                    <div id="toggleNav"><span class="MenuBtn"><i></i><i></i><i></i></span></div>
                 </div>
+                <div id="toggleNav"><span class="MenuBtn"><i></i><i></i><i></i></span></div>
             </div>
         </div>
         <div id="megaMenu" class="menuNavigation">
             <div class="container">
                 <ul class="listItems">
-                    <li><a title="" href="/" class="menuHead"></a>
+                    <li><a title="" href="/" class="menuHead">Home</a>
                         <ul class="subItems"></ul>
                     </li>
-                    <li><a title="" href="/" class="menuHead"></a><span></span>
+                    <li><a title="" href="/" class="menuHead">About us</a>
+                        <ul class="subItems"></ul>
+                    </li>
+                    <li><a title="" href="/" class="menuHead">Diseases</a><span></span>
                         <ul class="subItems">
-                            <li><a title="" href="/"></a> </li>
+                            <li><a href="#">Diseases</a></li>
                         </ul>
                     </li>
-                    <li><a title="" href="/" class="menuHead"></a>
+                    <li><a title="" href="/" class="menuHead">Our clinics</a>
                         <ul class="subItems"></ul>
                     </li>
-                    <li><a title="" href="/" class="menuHead"></a>
+                    <li><a title="" href="/" class="menuHead">Blog</a>
                         <ul class="subItems"></ul>
                     </li>
-                    <li><a title="" href="/" class="menuHead"></a>
+                    <li><a title="" href="/" class="menuHead">Contact us</a>
                         <ul class="subItems"></ul>
                     </li>
-                    <li><a title="" href="/" class="menuHead"></a>
+                    <li><a title="" href="/" class="menuHead">Careers</a>
                         <ul class="subItems"></ul>
                     </li>
                 </ul>
+                <div class="cta">
+                    <a href="#" class="paynow">Pay Now</a>
+                    <a href="#" class="booknow">Book an Appointment</a>
+                </div>
             </div>
         </div>
     </header>
@@ -580,20 +587,39 @@
     </footer>
     <script src="js/jquery.min.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/common.js"></script>
     <script>
         var swiper = new Swiper(".diseaseSwiper", {
-            slidesPerView: 6,
+            slidesPerView: 1.5,
             spaceBetween: 20,
             loop: true,
             navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
             },
+            breakpoints: {
+                640: {
+                    slidesPerView: 1.5,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                1024: {
+                    slidesPerView: 6,
+                    spaceBetween: 20,
+                },
+            },
         });
     </script>
     <script>
         var swiper = new Swiper(".testimonialSwiper", {
             loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
             navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
